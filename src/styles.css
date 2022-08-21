@@ -1,0 +1,110 @@
+:root {
+  --main-text-align: center;
+  --main-margin-top: 40px;
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+}
+
+body {
+  font-family: sans-serif;
+  text-align: var(--main-text-align);
+  margin-top: var(--main-margin-top);
+}
+
+h1 {
+  display: block;
+  font-size: 72px;
+  margin-top: 60px;
+}
+h3 {
+  margin-top: 0px;
+}
+
+h2 {
+  margin-bottom: 10px;
+  font-size: 48px;
+}
+
+p {
+  padding: 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1 span {
+  font-size: 48px;
+}
+
+div.row {
+  margin: 40px 0px;
+}
+
+.container {
+  display: block;
+  margin: 0 auto;
+  border: 2px;
+}
+
+.link-to-page {
+  margin-top: var(--main-margin-top);
+}
+
+.navbar {
+  top: 0;
+  width: 100%;
+  position: fixed;
+}
+
+.link-to-page a {
+  text-decoration: none;
+  padding: 20px;
+  border: 1px solid;
+  margin-right: 20px;
+}
+
+.columns-with-text {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+}
+
+.columns-with-text p {
+  border: 1px solid grey;
+  margin: 10px;
+  background-color: #f5f2fe;
+}
+.contact-me {
+  color: white;
+  background-color: var(--primary-color);
+}
+
+.contact-me:hover {
+  color: var(--primary-color);
+  background-color: white;
+}
+
+.description button {
+  color: white;
+  background-color: var(--primary-color);
+}
+
+.description button:hover {
+  color: var(--primary-color);
+  background-color: white;
+}
+
+.about-me {
+  color: var(--primary-color);
+}
+
+.about-me:hover {
+  color: white;
+  background-color: var(--primary-color);
+}
+
+#contact-me {
+  margin-top: var(--main-margin-top);
+}
